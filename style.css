@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  margin-left: 27%;
+  margin-right: 30%;
+  font-family: "roboto";
+  background-image: url(cat-god.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  font-size: 1.2em;
+  line-height: 50px;
+  text-indent: 25px;
+  background-color: #56595e;
+  color: white;
+}
+
+.gros-titre {
+  font-size: 3.5em;
+  font-family: "Amatic SC", cursive;
+}
+
+.moyen-titre {
+  font-size: 2.7em;
+  word-spacing: 25px;
+  font-family: "Amatic SC", cursive;
+}
+
+.petit-titre {
+  font-size: 1.5em;
+  word-spacing: 10px;
+  font-family: "Amatic SC", cursive;
+}
+
+.citation {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.citation::before {
+  content: '"';
+
+}
+
+.citation::after {
+  content: '"';
+
+}
+
+.name {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eden {
+  width: 100px;
+}
+
+.link {
+  color: #65c3c1;
+}
